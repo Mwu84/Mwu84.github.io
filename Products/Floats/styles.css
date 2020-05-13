@@ -1,0 +1,35 @@
+html {
+	text-align: center;
+}
+
+body {
+	background-color: orange;
+	margin: 50px;
+}
+
+
+section img {
+	float: left;
+	width: 285px;
+}
+
+.section img {
+	float: right;
+	width: 325px;
+}
+
+section {
+	background-color: pink;
+	margin-top: 100px;
+	padding: 5px;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	clear: both;
+	border: red 10px dotted;
+}

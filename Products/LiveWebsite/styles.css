@@ -1,0 +1,50 @@
+/* Name: Martin Wu
+   Date 2/12/2020
+   Assignment: Live Website
+*/
+html {
+  text-align: center;
+  background-color: #ffd801;
+}
+
+header {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
+  text-shadow: 5px 5px white;
+
+}
+
+nav {
+  position: sticky;
+  background-color: #dac292;
+}
+
+nav a {
+  outline: none;
+  text-decoration: none;
+  padding: 3px 2px 0;
+  font-size: 2em;
+  border-radius: 10px;
+  border-color: blue;
+  margin: auto;
+  padding: inherit;
+}
+
+nav a:hover{
+  background: #feb236;
+}
+
+nav a:visited {
+  color: #ff7b25;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+section p {
+  font-size: 10px;
+}

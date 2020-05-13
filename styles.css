@@ -22,6 +22,63 @@ body {
 	background-color: yellow;
 }
 
-img {
+/* Section */
+#Intro h2, p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#Intro h2 {
+		font-size: 2em;
+}
+
+#Intro img {
 	box-shadow: 5px 5px white;
+}
+/* Flex Box */
+.Products {
+	display: flex;
+}
+
+.Products div {
+	border: 2px #000000 solid;
+	padding: 50px;
+}
+
+.box-1 {
+	flex:1 ;
+}
+
+.box-2 {
+	flex:1 ;
+}
+
+.box-3 {
+	flex:1 ;
+}
+
+/*Hover and vistited*/
+.Products a {
+  outline: none;
+  text-decoration: none;
+  padding: 3px 2px 0;
+  font-size: 1em;
+  border-radius: 10px;
+  border-color: blue;
+  margin: auto;
+  padding: inherit;
+}
+
+.Products a:hover{
+  background: #feb236;
+}
+
+.Products a:visited {
+  color: #ff7b25;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
